@@ -11,7 +11,7 @@ void handleErrors(void)
 
 
 void sha256(unsigned char **digest, unsigned int *digest_len, const unsigned char *message, unsigned int message_len)
-/* Use in python: extmodule.sha256("mymessage")
+/* Use in python: hashmodule.sha256("mymessage")
    
    SWIG specifics:
    **digest, *digest_len are used to return bytes from C to Python - you do not pass them via Python
